@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MBN Motor Shop - Quality Motor Parts & Service</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -59,10 +60,10 @@
     
     <section id="about" class="after-hero">
         <div class="section-inner">
-            <h2 class="section-title top">About Us</h2>
+            <h2 class="section-title top"><i data-lucide="book" style="display: inline-block; vertical-align: middle; margin-right: 8px;"></i>About Us</h2>
             <div class="about-content">
                 <div class="about-text left">
-                    <h3>Introduction</h3>
+                    <h3><i data-lucide="shield-check" style="display: inline-block; vertical-align: middle; margin-right: 8px;"></i>Introduction</h3>
                     <p class="left">Welcome to MBN Motor Shop, your one-stop destination for high-quality motor parts and exceptional service. With years of experience in the automotive industry, we've built a reputation for reliability, expertise, and customer satisfaction.</p>
                     <p class="left">We specialize in providing premium motor parts for all types of vehicles, from motorcycles to cars. Our team of knowledgeable professionals is dedicated to helping you find the perfect parts for your needs.</p>
                     <p class="left">At MBN Motor Shop, we believe in building lasting relationships with our customers through honest service, competitive pricing, and a commitment to quality that never wavers.</p>
@@ -77,7 +78,7 @@
     
     <section id="products">
         <div class="section-inner">
-            <h2 class="section-title">Our Products</h2>
+            <h2 class="section-title"><i data-lucide="wrench" style="display: inline-block; vertical-align: middle; margin-right: 8px;"></i>Our Products</h2>
             <div class="products-grid">
                 <div class="product-card">
                     <img class="product-img" src="bg-product.jpg" alt="Yamaha Brake Pad">
@@ -119,32 +120,32 @@
             <h2 class="section-title">Why Choose Us</h2>
             <div class="features-grid">
                 <div class="feature-box">
-                    <img class="feature-img" src="icons/quality.svg" alt="Quality Guaranteed">
+                    <i data-lucide="shield-check" class="feature-icon lucide-icon"></i>
                     <h3>Quality Guaranteed</h3>
                     <p>All our parts are sourced from trusted manufacturers and come with warranty coverage.</p>
                 </div>
                 <div class="feature-box">
-                    <img class="feature-img" src="icons/price.svg" alt="Competitive Prices">
+                    <i data-lucide="tag" class="feature-icon lucide-icon"></i>
                     <h3>Competitive Prices</h3>
                     <p>We offer the best prices in the market without compromising on quality.</p>
                 </div>
                 <div class="feature-box">
-                    <img class="feature-img" src="icons/expert.svg" alt="Expert Advice">
+                    <i data-lucide="lightbulb" class="feature-icon lucide-icon"></i>
                     <h3>Expert Advice</h3>
                     <p>Our knowledgeable staff provides professional guidance to help you make the right choice.</p>
                 </div>
                 <div class="feature-box">
-                    <img class="feature-img" src="icons/delivery.svg" alt="Fast Delivery">
+                    <i data-lucide="truck" class="feature-icon lucide-icon"></i>
                     <h3>Fast Delivery</h3>
                     <p>Quick turnaround times and efficient service to get you back on the road fast.</p>
                 </div>
                 <div class="feature-box">
-                    <img class="feature-img" src="icons/selection.svg" alt="Wide Selection">
+                    <i data-lucide="layers" class="feature-icon lucide-icon"></i>
                     <h3>Wide Selection</h3>
                     <p>Extensive inventory covering all major brands and vehicle types.</p>
                 </div>
                 <div class="feature-box">
-                    <img class="feature-img" src="icons/service.svg" alt="Customer Service">
+                    <i data-lucide="headset" class="feature-icon lucide-icon"></i>
                     <h3>Customer Service</h3>
                     <p>Dedicated support team ready to assist you before, during, and after your purchase.</p>
                 </div>
@@ -155,7 +156,7 @@
     
     <section id="feedback">
         <div class="section-inner">
-            <h2 class="section-title">Customer Feedback</h2>
+            <h2 class="section-title"><i data-lucide="message-circle" style="display: inline-block; vertical-align: middle; margin-right: 8px;"></i>Customer Feedback</h2>
             <div class="feedback-container">
                 <div class="testimonial">
                 
@@ -195,22 +196,22 @@
             <h2 class="section-title">Get In Touch</h2>
             <div class="contact-info">
                 <div class="contact-item">
-                    <i class="fas fa-map-marker-alt"></i>
+                    <i data-lucide="map-pin"></i>
                     <h3>Location</h3>
                     <p>178 Main Street, Camarin<br>Caloocan, Philippines</p>
                 </div>
                 <div class="contact-item">
-                    <i class="fas fa-phone"></i>
+                    <i data-lucide="phone"></i>
                     <h3>Phone</h3>
                     <p>+63 993 291 2661<br>+63 922 345 6789</p>
                 </div>
                 <div class="contact-item">
-                    <i class="fas fa-envelope"></i>
+                    <i data-lucide="mail"></i>
                     <h3>Email</h3>
                     <p>info@mbnmotorshop.com<br>support@mbnmotorshop.com</p>
                 </div>
                 <div class="contact-item">
-                    <i class="fas fa-clock"></i>
+                    <i data-lucide="clock"></i>
                     <h3>Business Hours</h3>
                     <p>Mon - Sat: 8:00 AM - 6:00 PM<br>Sunday: Closed</p>
                 </div>
@@ -317,6 +318,9 @@
                                 }
                             });
                         });
+
+                        // Initialize Lucide icons
+                        lucide.createIcons();
 
                         
                     </script>
